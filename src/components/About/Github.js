@@ -1,18 +1,15 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import {
-  FaRegCheckCircle,
   FaCloud,
   FaUniversity,
   FaBriefcase,
   FaDatabase,
-  FaChartBar,
   FaFileExcel,
   FaWrench,
   FaCode,
   FaGraduationCap,
   FaLaptopCode,
-  FaFileAlt,
   FaShieldAlt
 } from "react-icons/fa";
 

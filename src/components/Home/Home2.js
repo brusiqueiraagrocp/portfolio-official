@@ -5,8 +5,7 @@ import Tilt from "react-parallax-tilt";
 import { AiOutlineMail } from "react-icons/ai"; // Adicionado
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillInstagram
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
