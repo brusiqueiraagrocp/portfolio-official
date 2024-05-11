@@ -11,7 +11,7 @@ function AboutCard() {
             Olá a todos, eu sou <span className="purple">Bruno Siqueira </span>
             de <span className="purple"> Santana da Vargem, Minas Gerais, Brasil.</span>
             <br />
-            Atualmente, estou empregado como Analista de Suporte de TI Júnior na AgroCP.
+            Atualmente, estou empregado como Analista de Suporte de TI na AgroCP.
             <br />
             Concluirei o curso de Tecnologia em Computação em Nuvem em 2024 na UNOPAR - Universidade Norte do Paraná.
             <br />
