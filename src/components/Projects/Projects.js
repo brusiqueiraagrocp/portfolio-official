@@ -7,6 +7,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import siteAgroCP from "../../Assets/Projects/siteagro.png";
 
 function Projects() {
   return (
@@ -20,6 +21,17 @@ function Projects() {
           Aqui estão alguns projetos que trabalhei recentemente.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={siteAgroCP}
+              isBlog={false}
+              isGitLab={false}
+              title="Site Institucional AgroCP"
+              description="Desenvolvi este site institucional para a AgroCP utilizando HTML, CSS e JavaScript. O site conta com diversas funcionalidades, incluindo páginas de produtos, história da AgroCP, política de privacidade e formulário de contato. Foco foi dado à usabilidade e ao design responsivo, garantindo uma experiência de navegação fluida em diferentes dispositivos. Além disso, foram implementadas técnicas de otimização de desempenho para garantir tempos de carregamento rápidos."
+              demoLink="https://agrocp.agr.br/"
+            />
+          </Col>
+         
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -80,6 +92,8 @@ function Projects() {
               demoLink="https://repositoriodevops.netlify.app/"
             />
           </Col>
+
+          
 
         </Row>
       </Container>
