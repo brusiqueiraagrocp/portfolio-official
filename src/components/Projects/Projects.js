@@ -8,6 +8,7 @@ import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import siteAgroCP from "../../Assets/Projects/siteagro.png";
+import chamaMoto from "../../Assets/Projects/chama_motorista.png;
 
 function Projects() {
   return (
@@ -45,6 +46,18 @@ function Projects() {
             />
           </Col>
 
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chamaMoto}
+              isBlog={false}
+              isGitLab={false}
+              title="App para chamar motorista por voz"
+              description="A aplicação web 'Chama Motorista' é um sistema desenvolvido com HTML, CSS e JavaScript, focado em operações logísticas de carregamento e descarga. O usuário pode inserir o nome do motorista, a placa do veículo e o tipo de operação (carregamento ou descarga), com suporte à escolha de diferentes vozes, como Microsoft Thalita Online (Natural) - Portuguese (Brazil), para anunciar as informações via voz de IA. A aplicação utiliza armazenamento local (localStorage) para salvar os últimos chamados, oferecendo a opção de chamar novamente através de um botão de reuso, otimizando o fluxo de trabalho. O sistema também permite a personalização das vozes, ajustando a experiência para diferentes cenários operacionais. O design da aplicação está em contínuo aprimoramento, buscando fornecer uma interface intuitiva e visualmente limpa para os usuários. Essa versão reflete os aspectos técnicos do projeto, como armazenamento, manipulação de dados e escolha de vozes."
+              ghLink="https://github.com/brusiqueira9/chamada_motorista"
+              demoLink="https://chamamotorista.netlify.app/"
+            />
+          </Col>
+                
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
