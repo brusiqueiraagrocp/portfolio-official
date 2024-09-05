@@ -8,7 +8,7 @@ import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import siteAgroCP from "../../Assets/Projects/siteagro.png";
-import chamaMoto from "../../Assets/Projects/chama_motorista.png";
+import chamaMoto from "../../Assets/Projects/chamamotorista.png";
 
 function Projects() {
   return (
