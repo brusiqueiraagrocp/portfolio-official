@@ -10,14 +10,6 @@
 
 Meu portfólio pessoal <a href="https://brunosiqueira.tec.br" target="_blank">brunosiqueira.tec.br</a> que apresenta alguns dos meus projetos do GitHub, além do meu currículo e habilidades técnicas.<br/>
 
-Este projeto foi construído usando as seguintes tecnologias:
-
-- HTML
-- CSS
-- JavaScript
-- VsCode
-- [Outra tecnologia que você usou]
-
 ## Features
 
 **📖 Layout Multi-Página**
