@@ -9,6 +9,7 @@ import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import siteAgroCP from "../../Assets/Projects/siteagro.png";
 import chamaMoto from "../../Assets/Projects/chamamotorista.png";
+import gestorRh from "../../Assets/Projects/gestor_rh.png";
 
 function Projects() {
   return (
@@ -33,18 +34,7 @@ function Projects() {
             />
           </Col>
          
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              isGitLab = {false}
-              title="Ficha de reserva de hotel"
-              description="Nossa ficha de reserva de hotel, desenvolvida para a AgroCP, é uma solução técnica que padroniza o processo de reserva de quartos para hóspedes. Criada com HTML, CSS e JavaScript, gera PDFs personalizados com a marca da AgroCP para cada reserva confirmada, simplificando e tornando mais eficiente a comunicação e o registro de reservas nos hotéis parceiros."
-              ghLink="https://github.com/brusiqueira9/ficha-reserva-hotel"
-              demoLink="https://ficha-reserva-hotel.netlify.app/"
-              
-            />
-          </Col>
+          
 
            <Col md={4} className="project-card">
             <ProjectCard
@@ -55,6 +45,31 @@ function Projects() {
               description="A aplicação web 'Chama Motorista' é um sistema logístico desenvolvido com HTML, CSS e JavaScript, que permite inserir o nome do motorista, placa do veículo e tipo de operação (carregamento ou descarga). Utilizando vozes de IA, como Microsoft Thalita Online, a aplicação anuncia essas informações e armazena os últimos chamados no localStorage, facilitando o reuso com um botão dedicado. O design busca ser intuitivo e está em constante melhoria para otimizar a experiência do usuário."
               ghLink="https://github.com/brusiqueira9/chamada_motorista"
               demoLink="https://chamamotorista.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gestorRh}
+              isBlog={false}
+              isGitLab={false}
+              title="Gestor RH"
+              description="O Gestor RH é uma aplicação web feita com HTML, CSS e JavaScript, focada na otimização da gestão de recursos humanos. Possui quatro páginas principais: Currículos, Vagas Ativas, Cadastrar Vagas e Notificações. A página de Currículos permite o gerenciamento dos currículos, enquanto a de Vagas Ativas exibe as oportunidades disponíveis. O sistema se integra em tempo real ao site da AgroCP, utilizando um banco de dados no Firebase, garantindo informações atualizadas. Com uma interface intuitiva e notificações em tempo real, busca melhorar a eficiência nos processos de recrutamento e seleção."
+              demoLink="https://youtu.be/OKpIRZng4kA"
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              isGitLab = {false}
+              title="Ficha de reserva de hotel"
+              description="Nossa ficha de reserva de hotel, desenvolvida para a AgroCP, é uma solução técnica que padroniza o processo de reserva de quartos para hóspedes. Criada com HTML, CSS e JavaScript, gera PDFs personalizados com a marca da AgroCP para cada reserva confirmada, simplificando e tornando mais eficiente a comunicação e o registro de reservas nos hotéis parceiros."
+              ghLink="https://github.com/brusiqueira9/ficha-reserva-hotel"
+              demoLink="https://ficha-reserva-hotel.netlify.app/"
+              
             />
           </Col>
                 
