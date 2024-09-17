@@ -19,12 +19,10 @@ function ProjectCards(props) {
           {props.description}
         </Card.Text>
         {/* Renderizar o botão GitHub ou GitLab com base na propriedade 'isGitLab' */}
-        {props.ghLink && (
-          <Button variant="primary" onClick={handleClick}>
-            {props.isGitLab ? <SiGitlab /> : <BsGithub />} &nbsp;
-            {props.isGitLab ? "GitLab" : "GitHub"}
-          </Button>
-        )}
+        <Button variant="primary" onClick={handleClick}>
+          {props.isGitLab ? <SiGitlab /> : <BsGithub />} &nbsp;
+          {props.isGitLab ? "GitLab" : "GitHub"}
+        </Button>
         {"\n"}
         {"\n"}
 
