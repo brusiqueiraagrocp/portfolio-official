@@ -27,8 +27,7 @@ function ProjectCards(props) {
         {"\n"}
 
         {/* Se o componente contiver link para demonstração, renderizar o botão Demo */}
-        {props.demoLink && (
-          {props.ghLink && (
+      {props.ghLink && (
   <Button variant="primary" onClick={handleClick}>
     {props.isGitLab ? <SiGitlab /> : <BsGithub />} &nbsp;
     {props.isGitLab ? "GitLab" : "GitHub"}
