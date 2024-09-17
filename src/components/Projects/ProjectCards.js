@@ -28,16 +28,13 @@ function ProjectCards(props) {
 
         {/* Se o componente contiver link para demonstração, renderizar o botão Demo */}
         {props.demoLink && (
-          <Button
-            variant="primary"
-            href={props.demoLink}
-            target="_blank"
-            style={{ marginLeft: "10px" }}
-          >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
-          </Button>
-        )}
+          {props.ghLink && (
+  <Button variant="primary" onClick={handleClick}>
+    {props.isGitLab ? <SiGitlab /> : <BsGithub />} &nbsp;
+    {props.isGitLab ? "GitLab" : "GitHub"}
+  </Button>
+)}
+
       </Card.Body>
     </Card>
   );
