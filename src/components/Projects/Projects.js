@@ -7,7 +7,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
-import siteAgroCP from "../../Assets/Projects/siteagro.png";
+import siteAgroCP from "../../Assets/Projects/siteAgroNovo.png";
 import chamaMoto from "../../Assets/Projects/chamamotorista.png";
 import gestorRh from "../../Assets/Projects/gestor_rh.png";
 
@@ -29,7 +29,7 @@ function Projects() {
               isBlog={false}
               isGitLab={false}
               title="Site Institucional AgroCP"
-              description="Desenvolvi este site institucional para a AgroCP utilizando HTML, CSS e JavaScript. O site conta com diversas funcionalidades, incluindo páginas de produtos, história da AgroCP, política de privacidade e formulário de contato. Foco foi dado à usabilidade e ao design responsivo, garantindo uma experiência de navegação fluida em diferentes dispositivos. Além disso, foram implementadas técnicas de otimização de desempenho para garantir tempos de carregamento rápidos."
+              description="Desenvolvi o site institucional da AgroCP utilizando HTML, CSS, JavaScript, PHP (para formulários de contato e newsletter com SMTP), além de Firebase para banco de dados e armazenamento de arquivos. O site possui páginas sobre os produtos, história da empresa, sustentabilidade e um formulário de contato para facilitar a comunicação. O design responsivo e voltado para a usabilidade oferece uma navegação intuitiva e acessível em dispositivos diversos."
               demoLink="https://agrocp.agr.br/"
             />
           </Col>
