@@ -10,6 +10,7 @@ import bitsOfCode from "../../Assets/Projects/blog.png";
 import siteAgroCP from "../../Assets/Projects/siteAgroNovo.png";
 import chamaMoto from "../../Assets/Projects/chamamotorista.png";
 import gestorRh from "../../Assets/Projects/gestor_rh.png";
+import moniRede from "../../Assets/Projects/moni_rede.png";
 
 function Projects() {
   return (
@@ -48,6 +49,17 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={moniRede}
+              isBlog={false}
+              isGitLab={false}
+              title="Monitoramento de Rede"
+              description="O Sistema de Monitoramento de Rede é uma solução desenvolvida para a AgroCP Filial, com foco em garantir a estabilidade operacional e a eficiência do ambiente de TI. Criado com tecnologias modernas como Cors, Express, Sequelize, Socket.io, JWT e contêineres Docker, o sistema automatiza o monitoramento de dispositivos e impressoras. Ele possui funcionalidades como monitoramento contínuo, envio de notificações personalizadas por e-mail sobre dispositivos offline ou níveis baixos de toner, registro de logs e agendamento de verificações periódicas. Com uma interface prática e alertas em tempo real, busca prevenir interrupções, otimizar o tempo de gestão e aumentar a confiabilidade da rede."
+              demoLink="https://www.linkedin.com/posts/bruno-siqueiratec_tenho-o-prazer-de-compartilhar-que-pensando-activity-7268052233202638848-6L-s?utm_source=share&utm_medium=member_desktop"
+              />
+          </Col>
+                
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={gestorRh}
