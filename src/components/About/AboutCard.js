@@ -13,7 +13,9 @@ function AboutCard() {
             <br />
             Atualmente, estou empregado como Analista de Suporte de TI na AgroCP.
             <br />
-            Concluirei o curso de Tecnologia em Computação em Nuvem em 2024 na UNOPAR - Universidade Norte do Paraná.
+            Sou formado em Tecnologia em Computação em Nuvem pela UNOPAR - Universidade Norte do Paraná.
+            <br />
+            Atualmente, estou cursando uma Pós-Graduação em Arquitetura de Software pela Anhanguera Educacional.
             <br />
             <br />
             Além de trabalhar com tecnologia, aqui estão algumas outras atividades que eu amo fazer!
@@ -39,6 +41,7 @@ function AboutCard() {
     </Card>
   );
 }
+
 
 
 export default AboutCard;
