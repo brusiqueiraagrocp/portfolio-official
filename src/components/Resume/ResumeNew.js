@@ -7,7 +7,7 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
 // Importe o arquivo PDF corretamente
-import CurriculoBruno from "../../Assets/Curriculo_Bruno.pdf";
+import CurriculoBruno from "../../Assets/Curriculo_Bruno.PDF";
 
 // Configure o workerSrc do pdfjs
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
