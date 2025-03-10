@@ -11,6 +11,7 @@ import siteAgroCP from "../../Assets/Projects/siteAgroNovo.png";
 import chamaMoto from "../../Assets/Projects/chamamotorista.png";
 import gestorRh from "../../Assets/Projects/gestor_rh.png";
 import moniRede from "../../Assets/Projects/moni_rede.png";
+import expenseGuru from "../../Assets/Projects/expense-guru.png;
 
 function Projects() {
   return (
@@ -35,8 +36,19 @@ function Projects() {
             />
           </Col>
          
-          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={expenseGuru}
+              isBlog={false}
+              isGitLab={false}
+              title="Expense Guru - Controle Financeiro"
+              description="O Expense Guru é uma aplicação web moderna para gerenciamento financeiro pessoal, desenvolvida com React, TypeScript e Supabase. Oferece funcionalidades completas como registro de receitas e despesas, categorização de transações, controle de contas bancárias, gestão de metas financeiras, relatórios detalhados e dashboard interativo. A interface intuitiva e responsiva utiliza Tailwind CSS e Shadcn/ui, proporcionando uma experiência de usuário fluida e agradável."
+              ghLink="https://github.com/brusiqueira9/expense-guru-supabase"
+              demoLink="https://guruexpense.netlify.app/"
+            />
+          </Col> 
 
+                
            <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chamaMoto}
