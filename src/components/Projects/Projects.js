@@ -11,7 +11,7 @@ import siteAgroCP from "../../Assets/Projects/siteAgroNovo.png";
 import chamaMoto from "../../Assets/Projects/chamamotorista.png";
 import gestorRh from "../../Assets/Projects/gestor_rh.png";
 import moniRede from "../../Assets/Projects/moni_rede.png";
-import expenseGuru from "../../Assets/Projects/expense-guru.png;
+import expenseGuru from "../../Assets/Projects/expense_guru.png;
 
 function Projects() {
   return (
